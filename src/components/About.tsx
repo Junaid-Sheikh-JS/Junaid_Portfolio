@@ -56,7 +56,7 @@ export function About() {
                 <span>Developer Biography</span>
               </div>
               <h3 className="text-xl font-bold text-zinc-950 mb-4">
-                Architecting intuitive frontend interfaces from Sabzazar, Lahore.
+                Architecting intuitive frontend interfaces 
               </h3>
               <p className="text-zinc-600 text-sm sm:text-base leading-relaxed mb-4">
                 {personal.aboutNarrative}
@@ -66,7 +66,7 @@ export function About() {
               </p>
             </div>
 
-            <div className="pt-6 mt-6 border-t border-brand-100 flex flex-wrap items-center justify-between gap-4 text-xs font-medium text-zinc-600">
+            {/* <div className="pt-6 mt-6 border-t border-brand-100 flex flex-wrap items-center justify-between gap-4 text-xs font-medium text-zinc-600">
               <div className="flex items-center gap-1.5 text-palette-pine">
                 <MapPin className="w-3.5 h-3.5 text-palette-jade" />
                 <span>{personal.address}</span>
@@ -75,7 +75,7 @@ export function About() {
                 <span className="w-2 h-2 rounded-full bg-palette-mint" />
                 <span>Languages: English, Urdu, Punjabi</span>
               </div>
-            </div>
+            </div> */}
           </motion.div>
 
           {/* Community & AI Exploration Card (lg:col-span-5) */}

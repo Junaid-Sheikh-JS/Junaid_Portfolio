@@ -85,13 +85,13 @@ export function DeveloperCard({
                 {/* Live status badge on photo */}
                 <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between text-white pointer-events-none">
                   <div>
-                    <p className="text-xs font-mono uppercase tracking-widest text-palette-mint">Muhammad Junaid</p>
-                    <p className="text-sm font-semibold tracking-tight text-white flex items-center gap-1.5">
+                    <p className="text-xs font-mono uppercase tracking-widest text-white">Muhammad Junaid</p>
+                    {/* <p className="text-sm font-semibold tracking-tight text-white flex items-center gap-1.5">
                       <span className="w-2 h-2 rounded-full bg-palette-mint animate-pulse" />
                       Lahore · Tech Event 2026
-                    </p>
+                    </p> */}
                   </div>
-                  <span className="px-2.5 py-1 text-[11px] font-mono bg-palette-pine/80 backdrop-blur-md rounded-md border border-palette-mint/40 text-palette-mint font-semibold shadow-xs">
+                  <span className="px-2.5 py-1 text-[11px] font-mono bg-palette-pine/80 backdrop-blur-md rounded-md border border-palette-mint/40 text-white font-semibold shadow-xs">
                     REACT.JS
                   </span>
                 </div>
@@ -203,7 +203,7 @@ export function DeveloperCard({
                 <div className="w-full flex items-center justify-between pt-2 border-t border-brand-100 text-[11px] text-zinc-500 font-mono">
                   <span className="flex items-center gap-1.5 text-palette-pine font-medium">
                     <Sparkles className="w-3 h-3 text-palette-jade" />
-                    Emerald Studio
+                    Jerry Codes
                   </span>
                   <span className="text-palette-jade">M. Junaid</span>
                 </div>
@@ -214,13 +214,13 @@ export function DeveloperCard({
       </div>
 
       {/* Under-card metadata chip */}
-      <div className="flex items-center justify-between w-full mt-3 px-1 text-xs text-zinc-500 font-mono">
+      {/* <div className="flex items-center justify-between w-full mt-3 px-1 text-xs text-zinc-500 font-mono">
         <span className="inline-flex items-center gap-1.5 text-zinc-600">
           <span className="w-1.5 h-1.5 rounded-full bg-palette-jade"></span>
           Sabzazar, Lahore
         </span>
         <span className="text-palette-pine font-medium">BSCS · 2023-2027</span>
-      </div>
+      </div> */}
     </div>
   );
 }

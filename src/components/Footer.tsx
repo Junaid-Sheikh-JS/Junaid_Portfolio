@@ -100,9 +100,9 @@ export function Footer() {
         <span>
           © {new Date().getFullYear()} Muhammad Junaid. All rights reserved.
         </span>
-        <span className="text-palette-jade">
+        {/* <span className="text-palette-jade">
           Emerald & Pine Palette · Production Ready
-        </span>
+        </span> */}
       </div>
     </footer>
   );
